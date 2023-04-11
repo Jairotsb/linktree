@@ -1,12 +1,13 @@
-import Title from "./components/Title"
+import Links from "./components/Links";
+import Title from "./components/Title";
 
 function App() {
-
   return (
     <div className="App">
-        <Title/>
+      <Title/>
+      <Links />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

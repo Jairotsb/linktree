@@ -1,13 +1,17 @@
-export default function Links(){
+import { link } from "../services/links";
 
-    return(
-        <ul>
-            <li>Links</li>
-            <li>Links</li>
-            <li>Links</li>
-            <li>Links</li>
-        </ul>
+import styles from "./Links.module.css";
 
-    );
-
+export default function Links() {
+  return (
+    <div className={styles.linkHead}>
+      <ul className={styles.linkBody}>
+        {link.map((links, index) => (
+          <a target="_blank" href={links.anchor}>
+            <li>{links.title}</li>
+          </a>
+        ))}
+      </ul>
+    </div>
+  );
 }
