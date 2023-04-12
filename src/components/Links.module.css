@@ -1,6 +1,6 @@
 .linkHead {
-    display: flex; 
-    align-items: center;    
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -10,16 +10,22 @@
 }
 
 .linkBody li {
-    border-radius: 8px; 
-    width: 100%; 
+    border-radius: 8px;
+    width: 100%;
     height: 3rem;
-    padding-top: 0.875rem;
+    padding-top: 0.4rem;
     background-color: #3730a3;
     text-align: center;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 
     transition: background 0.2s;
+
 }
+
+.linkBody li svg {
+    transform: translateY(0.4rem);
+}
+
 
 .linkBody li:hover {
     background-color: #7dd3fc;

@@ -357,6 +357,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@phosphor-icons/react@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@phosphor-icons/react/-/react-2.0.8.tgz#91e65beee7d3940a33624d8250955c2dba2e92dd"
+  integrity sha512-VWACI+MkRGpol4htOcVtWKaDCosrcuCg8toJfPS0osgVjxM8i/KoSZSPxQvG5XYPCI8iyJoHKRpSfzOISAXFyg==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -591,6 +596,11 @@ path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
+
+phosphor-icons@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/phosphor-icons/-/phosphor-icons-1.4.2.tgz#49f4547769470d2d1007c5ee28f99c7b29dd5f0f"
+  integrity sha512-vDyuRWLSEb87dxpoOGpP1GCjr/TFzA0Ljt0TtJcwXO7/iPdSZW0e/2m1jsANH1ML5ZyZXcjeWx6pzT0A0tgYDA==
 
 picocolors@^1.0.0:
   version "1.0.0"

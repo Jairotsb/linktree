@@ -8,7 +8,7 @@ export default function Links() {
       <ul className={styles.linkBody}>
         {link.map((links, index) => (
           <a target="_blank" href={links.anchor}>
-            <li>{links.title}</li>
+             <li>{links.icon} {links.title}</li>
           </a>
         ))}
       </ul>

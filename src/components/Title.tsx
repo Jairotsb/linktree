@@ -1,5 +1,7 @@
 import styles from "./Title.module.css";
 
+import { HandWaving } from '@phosphor-icons/react';
+
 export default function Title() {
   return (
     <div className={styles.title}>
@@ -7,7 +9,7 @@ export default function Title() {
       <div className={styles.profile}>
         <img src="https://github.com/Jairotsb.png" />
         <strong>Jairo Tunisse</strong>
-        <span>Olá! espero te ajudar por aqui.</span>
+        <span>Olá! Seja bem vindo <HandWaving size={24}/></span>
       </div>
     </div>
   );
