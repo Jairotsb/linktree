@@ -1,0 +1,27 @@
+.themeButton {
+    position: fixed;
+    right: 35%;
+    bottom: 55%;
+    border: 0;
+    border-radius: 8px;
+    background: #3730a3;
+    color: #fff;
+    padding: 0.4rem;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.themeButton:hover {
+    background: #7dd3fc;
+}
+
+@media(max-width: 768px) {
+
+    .themeButton {
+        right: 1%;
+        bottom: 71%
+    }
+
+
+}
