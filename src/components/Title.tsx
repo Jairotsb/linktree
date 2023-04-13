@@ -1,16 +1,13 @@
-import { ThemeProvider } from "styled-components";
 import styles from "./Title.module.css";
 
 import { HandWaving } from "@phosphor-icons/react";
 
 interface ComponentProps {
   theme: boolean;
-  switchTheme: object;
 }
 
 export default function Title(props: ComponentProps) {
   return (
-    <ThemeProvider theme={props.switchTheme}>
       <div className={styles.title}>
         <img className={styles.cover} src="/eagle-background.jpg" alt="" />
         <div className={styles.profile}>
@@ -26,6 +23,5 @@ export default function Title(props: ComponentProps) {
           </span>
         </div>
       </div>
-    </ThemeProvider>
   );
 }
