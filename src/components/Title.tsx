@@ -7,9 +7,11 @@ interface ComponentProps {
 }
 
 export default function Title(props: ComponentProps) {
+  const background = props.theme ? '/eagle-background.jpg' : 'background-link.jpg';
+
   return (
       <div className={styles.title}>
-        <img className={styles.cover} src="/eagle-background.jpg" alt="" />
+        <img className={styles.cover} src={background} alt="background" />
         <div className={styles.profile}>
           <img
             className={
