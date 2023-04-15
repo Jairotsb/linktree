@@ -36,3 +36,10 @@
     color: white;
     text-decoration: none;
 }
+
+@media(max-width: 758px){
+    .linkBody {
+        width: 100%;
+        padding: 0 0.8rem;
+    }
+}
