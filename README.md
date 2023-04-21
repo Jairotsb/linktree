@@ -22,7 +22,7 @@ My Personal linktree for show my social medias.
 - ReactJs :heavy_check_mark:
 - Typescript :heavy_check_mark:
 - Vector Icons :heavy_check_mark:
-- ViteJs :heavy_check_mark
+- ViteJs :heavy_check_mark:
 
 ## Executing the project
 
@@ -40,6 +40,8 @@ This project is under license from MIT. See [LICENSE](LICENSE.md) for more detai
 <div align="center"> 
   <small>Development with :blue_heart: by Jairo Tunisse - November/2021</small>
 
-[![Instagram Badge](https://img.shields.io/badge/-jairotunisse-6633cc?style=flat-square&labelColor=172554&logo=instagram&logoColor=white&link=https://www.instagram.com/jairotunisse/)](https://www.instagram.com/jairotunisse)
+<br/>
+
+[![Instagram Badge](https://img.shields.io/badge/-jairotunisse-172554?style=flat-square&labelColor=172554&logo=instagram&logoColor=white&link=https://www.instagram.com/jairotunisse/)](https://www.instagram.com/jairotunisse)
 [![Linkedin Badge](https://img.shields.io/badge/-jairotsb-172554?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairotsb)](https://www.linkedin.com/in/jairotsb/)
 </div>
