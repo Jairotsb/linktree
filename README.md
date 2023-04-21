@@ -1,2 +1,1 @@
-## Todo
-  - automatizar cores
+
