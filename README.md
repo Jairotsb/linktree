@@ -38,7 +38,7 @@ This project is under license from MIT. See [LICENSE](LICENSE.md) for more detai
 <br />
 
 <div align="center"> 
-  <small>Development with :blue_heart: by Jairo Tunisse - November/2021</small>
+  <small>Development with :blue_heart: by Jairo Tunisse - May/2023</small>
 
 <br/>
 
