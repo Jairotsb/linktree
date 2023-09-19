@@ -29,8 +29,11 @@
 
 body {
   background: var(--bg-url) no-repeat center/cover;
+  overflow: hidden;
   /*background: color image repeat position/size */ 
+  height: 99vh;
   transition: all 0.2s;
+  padding: 0 20px;
 }
 
 body * {
@@ -161,7 +164,6 @@ ul li a:hover {
 
 footer{
   font-size: 24px; 
-  padding: 24px 0;
   text-align: center;
 }
 
@@ -170,3 +172,12 @@ footer ion-icon{
 }
 
 
+@media(min-width:768px){
+  :root {
+    --bg-url: url(./assets/bg-desktop.png);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-light-desktop.png);
+  }
+}
