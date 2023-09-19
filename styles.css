@@ -18,7 +18,7 @@
 
 .light{
   --text-color: black;
-  --bg-url: url(./assets/bg-light.jpg);
+  --bg-url: url(./assets/bg-light.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05)
   --surface-color-hover: rgba(0, 0, 0, 0.02); 
@@ -39,8 +39,9 @@ body * {
 }
 
 #container {
-    width: 360px; 
-    margin: 56px auto 0; // alinha as caixas de css... 
+  max-width: 586px;
+  width: 100%; 
+  margin: 56px auto 0; // alinha as caixas de css... 
 }
 
 #profile {
